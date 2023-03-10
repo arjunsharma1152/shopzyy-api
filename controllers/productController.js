@@ -28,6 +28,10 @@ exports.getAllProduct = async (req,res) => {
 
     // const tours = await Product.find().where('duration').equals(5);
 
+    res.header('Acsess-Control-Allow-Origin', '*');
+    res.header('Acsess-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+    res.header('Acsess-Control-Allow-Headers', 'Content-Type');
+
     res.status(200).json({
         status: 'success',
         results: products.length,
