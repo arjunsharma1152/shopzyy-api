@@ -1,0 +1,207 @@
+[
+  {
+    "title": "Hats",
+    "routeName": "hats",
+    "items": [
+      [
+        "Brown Brim",
+        "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+        250
+      ],
+      [
+        "Blue Beanie",
+        "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+        180
+      ],
+      [
+        "Brown Cowboy",
+        "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
+        350
+      ],
+      [
+        "Grey Brim",
+        "https://i.ibb.co/RjBLWxB/grey-brim.png",
+        250
+      ],
+      [
+        "Green Beanie",
+        "https://i.ibb.co/YTjW3vF/green-beanie.png",
+        18
+      ],
+      [
+        "Palm Tree Cap",
+        "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
+        14
+      ],
+      [
+        "Red Beanie",
+        "https://i.ibb.co/bLB646Z/red-beanie.png",
+        180
+      ],
+      [
+        "Wolf Cap",
+        "https://i.ibb.co/1f2nWMM/wolf-cap.png",
+        140
+      ],
+      [
+        "Blue Snapback",
+        "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        160
+      ]
+    ]
+  },
+  {
+    "title": "Sneakers",
+    "routeName": "sneakers",
+    "items": [
+      [
+        "Adidas NMD",
+        "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
+        220
+      ],
+      [
+        "Adidas Yeezy",
+        "https://i.ibb.co/dJbG1cT/yeezy.png",
+        280
+      ],
+      [
+        "Black Converse",
+        "https://i.ibb.co/bPmVXyP/black-converse.png",
+        110
+      ],
+      [
+        "Nike AirForce",
+        "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
+        160
+      ],
+      [
+        "Nike High Tops",
+        "https://i.ibb.co/QcvzydB/nikes-red.png",
+        160
+      ],
+      [
+        "Nike High Tops",
+        "https://i.ibb.co/fMTV342/nike-brown.png",
+        160
+      ],
+      [
+        "Air Jordan",
+        "https://i.ibb.co/w4k6Ws9/nike-funky.png",
+        190
+      ],
+      [
+        "Timberlands",
+        "https://i.ibb.co/Mhh6wBg/timberlands.png",
+        200
+      ]
+    ]
+  },
+  {
+    "title": "Jackets",
+    "routeName": "jackets",
+    "items": [
+      [
+        "Black Denim",
+        "https://i.ibb.co/XzcwL5s/black-shearling.png",
+        525
+      ],
+      [
+        "Blue Denim",
+        "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
+        590
+      ],
+      [
+        "Grey Denim",
+        "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
+        690
+      ],
+      [
+        "Brown Shearling",
+        "https://i.ibb.co/s96FpdP/brown-shearling.png",
+        565
+      ],
+      [
+        "Tan Trench",
+        "https://i.ibb.co/M6hHc3F/brown-trench.png",
+        485
+      ]
+    ]
+  },
+  {
+    "title": "Women",
+    "routeName": "women",
+    "items": [
+      [
+        "Blue Tanktop",
+        "https://i.ibb.co/7CQVJNm/blue-tank.png",
+        250
+      ],
+      [
+        "Floral Blouse",
+        "https://i.ibb.co/4W2DGKm/floral-blouse.png",
+        200
+      ],
+      [
+        "Floral Dress",
+        "https://i.ibb.co/KV18Ysr/floral-skirt.png",
+        800
+      ],
+      [
+        "Red Dots Dress",
+        "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
+        800
+      ],
+      [
+        "Striped Sweater",
+        "https://i.ibb.co/KmSkMbH/striped-sweater.png",
+        450
+      ],
+      [
+        "Yellow Tracksuit",
+        "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
+        535
+      ],
+      [
+        "White Crop-top",
+        "https://i.ibb.co/qBcrsJg/white-vest.png",
+        500
+      ]
+    ]
+  },
+  {
+    "title": "Men",
+    "routeName": "men",
+    "items": [
+      [
+        "Half Jacket",
+        "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+        325
+      ],
+      [
+        "Floral T-shirt",
+        "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
+        300
+      ],
+      [
+        "Full T-shirt",
+        "https://i.ibb.co/55z32tw/long-sleeve.png",
+        450
+      ],
+      [
+        "Pink T-shirt",
+        "https://i.ibb.co/RvwnBL8/pink-shirt.png",
+        459
+      ],
+      [
+        "Denim Shirt",
+        "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
+        400
+      ],
+      [
+        "Printed Shirt",
+        "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        250
+      ]
+    ]
+  }
+]

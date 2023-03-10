@@ -1,4 +1,4 @@
-const Tour = require('../models/tourModel');
+const Product = require('../models/productModel');
 // const tours = JSON.parse(fs.readFileSync(`${__dirname}/../dev_data/data/tours-simple.json`));
 
 // exports.checkBody = (req,res,next) => {
@@ -11,7 +11,7 @@ const Tour = require('../models/tourModel');
 //     next();
 // }
 
-exports.getAllTours = async (req,res) => {
+exports.getAllProduct = async (req,res) => {
     try{
         const queryObject = {...req.query};
         const excludedFields = ['page','limit','sort','fields'];
@@ -22,16 +22,16 @@ exports.getAllTours = async (req,res) => {
 
     queryString = queryString.replace(/\b(gte|gt|lte|lt)\b/g, match => `$${match}`);
 
-    const query = Tour.find(JSON.parse(queryString));
+    const query = Product.find(JSON.parse(queryString));
 
-    const tours = await query;
+    const products = await query;
 
-    // const tours = await Tour.find().where('duration').equals(5);
+    // const tours = await Product.find().where('duration').equals(5);
 
     res.status(200).json({
         status: 'success',
-        results: tours.length,
-        data: {tours}
+        results: products.length,
+        data: {products}
     })
 } catch (err) {
     res.status(404).json({
@@ -41,14 +41,14 @@ exports.getAllTours = async (req,res) => {
 }
     };
 
-exports.getTour = async (req,res) => {  
+exports.getProduct = async (req,res) => {  
     try{
-        const tour = await Tour.findById(req.params.id);
+        const product = await Product.findById(req.params.id);
 
         res.status(200).json({
             status: 'success',
             data: {
-                tour 
+                product 
             }
         })
     } catch (err) {
@@ -59,17 +59,17 @@ exports.getTour = async (req,res) => {
     }
     };
 
-exports.updateTour = async (req,res) => {
+exports.updateProduct = async (req,res) => {
 
     try{
-       const tour = await Tour.findByIdAndUpdate(req.params.id, req.body, {
+       const product = await Product.findByIdAndUpdate(req.params.id, req.body, {
             new: true,
             runValidators: true
         })
         res.status(200).json({
             status: "success",
             data: {
-                tour
+                product
             }
         })
     } catch (err) {
@@ -80,20 +80,21 @@ exports.updateTour = async (req,res) => {
     }
 };
 
-exports.addTour = async (req,res) => {
+exports.addProduct = async (req,res) => {
     try{
-    // const newTour = new Tour({});
-    // newTour.save()
+    // const newProduct = new Product({});
+    // newProduct.save()
 
-    const newTour = await Tour.create(req.body);    
+    const newProduct = await Product.create(req.body);    
     
     res.status(201).json({
         status: "success",
         data: {
-            tour: newTour
+            product: newProduct
         }
     })
 } catch (err) {
+    console.log(err);
     res.status(400).json({
         status: "fail",
         message: "Invalid data sent"
@@ -101,10 +102,10 @@ exports.addTour = async (req,res) => {
 }
 };
 
-exports.deleteTour = async (req,res) => {
+exports.deleteProduct = async (req,res) => {
 
     try{
-        await Tour.findByIdAndDelete(req.params.id);
+        await Product.findByIdAndDelete(req.params.id);
 
         res.status(204).json({
             status: "success"

@@ -2,7 +2,7 @@ const fs = require('fs');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config({path: './config.env'});
-const Tour = require("../../models/tourModel");
+const Product = require("../../models/productModel");
 
 const DB = process.env.DATABASE.replace('<PASSWORD>',process.env.DATABASE_PASSWORD);
 
@@ -14,11 +14,11 @@ mongoose.connect(DB,{
 }).then(() => console.log("DB connection successful")
 );
  
-const tours = JSON.parse(fs.readFileSync(`${__dirname}/tours-simple.json`,'utf-8'));
+const products = JSON.parse(fs.readFileSync(`${__dirname}/products.json`,'utf-8'));
 
 const importData = async () => {
     try{
-        await Tour.create(tours);
+        await Product.create(products);
         console.log("Data Loaded");
     } catch (err){
         console.log(err);
@@ -28,7 +28,7 @@ const importData = async () => {
 
 const deleteData = async () => {
     try{
-        await Tour.deleteMany();
+        await Product.deleteMany();
         console.log("Data Deleted");
     } catch (err){
         console.log(err);
