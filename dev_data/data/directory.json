@@ -1,0 +1,29 @@
+[
+  {
+    "title": "hats",
+    "imageUrl": "https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "linkUrl": "shop/hats"
+  },
+  {
+    "title": "jackets",
+    "imageUrl": "https://i.ibb.co/px2tCc3/jackets.png",
+    "linkUrl": "shop/jackets"
+  },
+  {
+    "title": "shoes",
+    "imageUrl": "https://bit.ly/3RkkTnf",
+    "linkUrl": "shop/sneakers"
+  },
+  {
+    "title": "women",
+    "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png",
+    "size": "large",
+    "linkUrl": "shop/women"
+  },
+  {
+    "title": "men",
+    "imageUrl": "https://bit.ly/3rauimz",
+    "size": "large",
+    "linkUrl": "shop/men"
+  }
+]

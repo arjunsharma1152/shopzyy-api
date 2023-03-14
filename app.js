@@ -2,6 +2,8 @@ const express = require("express");
 
 const productRouter = require('./routes/productRoutes');
 
+const directoryRouter = require('./routes/directoryRoutes');
+
 const app = express();
 
 app.use(express.json());
@@ -17,5 +19,6 @@ app.use((req,res,next) =>{
 })
 
 app.use("/api/items", productRouter);
+app.use("/api/directory", directoryRouter);
 
 module.exports = app;
