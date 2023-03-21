@@ -1,6 +1,7 @@
 # shopzyy-api 
-• It is an API for Shopzyy.
-• NodeJS, ExpressJS & Mongodb are used to develop this API.
-• Deployed on render.
-• https://shopzyy.onrender.com/api/items - For shoppage items.
-• https://shopzyy.onrender.com/api/directory
+• It is an API for Shopzyy.<br>
+• NodeJS, ExpressJS & Mongodb are used to develop this API.<br>
+• Deployed on render.<br>
+• https://shopzyy.onrender.com/api/items - For shop-page items.<br>
+• https://shopzyy.onrender.com/api/directory - For directories on the homepage.
+
